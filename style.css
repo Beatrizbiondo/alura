@@ -107,6 +107,16 @@ body{
 
 .banner-pesquisa {
     background-color: transparent;
+    padding: 1em 0 0.5em 0;
+
+
+
+    } 
+
+    .swiper-slide img { 
+        width: 60%;
+      }
+.card-descricao{ 
     border: 2px solid black;
     color: black;
     border-radius: 24px;
@@ -123,6 +133,16 @@ body{
 
 
 .carrossel__titulo {
+    padding: 1em 0 0.5em 0;
+
+
+
+    } 
+
+    .swiper-slide img { 
+        width: 60%;
+      }
+.card-descricao{ 
         color: var(--laranja);
         background-color: var(--branco);
         text-align: center;
@@ -130,4 +150,25 @@ body{
         font-size: 18px;
         font-weight: 700;
         padding: 1em 0 0.5em 0;
-        }
+
+
+
+        } 
+ 
+        .swiper-slide img { 
+            width: 60%;
+          }
+ .card-descricao{ 
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0,5em;
+ }
+  .card-botoes{
+    display: flex;
+    justify-content: space-between;
+  }
+  .botoes{
+    display: flex;
+  }
+    
+    
